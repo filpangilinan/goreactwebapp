@@ -2,6 +2,7 @@
 A CoDev - goreact login application
 
 **HOW TO SETUP:**
+
 I. Install Pycharm and robotframework libraries, and setup JDK and Python Environments
 1. Download and install Pycharm v2019.3.4 (Community Edition)
 2. Download and install Python 3.9.2 (https://www.python.org/downloads/)
