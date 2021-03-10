@@ -30,4 +30,6 @@ IV. Running the automation script
 3. Open Pycharm
 4. Click File and then select Open
 5. Go to the folder that you clone from the branch
-6. Go to the terminal and type "robot -i login tests"
+6. Go to the terminal and type "robot -i login tests" (for running the whole positive and negative scenarios) 
+7.  OR type "robot -i posScenario tests" (for running the whole positive scenarios only)
+8.  OR type "robot -i negScenario tests" (for running the whole negative scenarios only)
