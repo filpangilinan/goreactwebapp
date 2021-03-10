@@ -33,3 +33,4 @@ IV. Running the automation script
 6. Go to the terminal and type "robot -i login tests" (for running the whole positive and negative scenarios) 
 7.  OR type "robot -i posScenario tests" (for running the whole positive scenarios only)
 8.  OR type "robot -i negScenario tests" (for running the whole negative scenarios only)
+9. OR type "robot -i negScenario<number> tests" (for running a specific scenario)
