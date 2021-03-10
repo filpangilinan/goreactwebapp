@@ -179,10 +179,12 @@ Clicking Continue button without checking the checkbox of Terms
 
 Logging In an Account
     Wait Until Page Contains Element  ${btnLogin}  20
+    Wait Until Page Contains Element  ${txtEmail}  20
     Input Text  ${txtEmail}  ${validEmail}
+    Wait Until Page Contains Element  ${txtPassword}  20
     Input Text  ${txtPassword}  ${validPwd}
     Click Element  ${btnLogin}
-    Wait Until Page Contains Element  ${imgGOREACT}  20
+    Sleep  5
 
 Creating an Instructor Account
     #---- Clicking Create Account to proceed in creating an instructor account  ----#
