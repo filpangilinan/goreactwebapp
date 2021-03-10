@@ -34,3 +34,8 @@ IV. Running the automation script
 7.  OR type "robot -i posScenario tests" (for running the whole positive scenarios only)
 8.  OR type "robot -i negScenario tests" (for running the whole negative scenarios only)
 9. OR type "robot -i negScenario<number> tests" (for running a specific scenario)
+
+
+Additional Instruction:
+ For test scenario: "GoReact Login Page - Creation of an Instruction Account", you need to select manually the Course Type so that it will proceed to the next step. 
+ Don't worry all my test scripts are working except that one step in Instruction account creation.
