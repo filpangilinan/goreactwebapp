@@ -30,6 +30,4 @@ IV. Running the automation script
 3. Open Pycharm
 4. Click File and then select Open
 5. Go to the folder that you clone from the branch
-6. Go to the terminal and type "robot -i login tests" OR
-7. Open the cloned folder
-8. Double click the test.bat
+6. Go to the terminal and type "robot -i login tests"
